@@ -1,0 +1,1 @@
+2023-01-23 16:31:38 WARNING security security - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.

@@ -1,0 +1,41 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytest-enhanced-reports"
+version = "1.2.3"
+authors = [
+  { name="NewPage Solutions", email="InnovationDesk@newpage.io" },
+]
+description = "Enhanced test reports for pytest"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://newpage-solutions-inc.github.io/pytest-enhanced-reports/"
+"Bug Tracker" = "https://github.com/NewPage-Solutions-Inc/pytest-enhanced-reports/issues"
+
+[tool.black]
+line-length = 80
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | __pycache__
+)/
+'''

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Enhanced Allure Report</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="card">
+            <h2>Enhanced Allure Report</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label>First Name</label>
+                        <input type="text" id="firstName" onfocus="onFocusElement(this)">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label>Last Name</label>
+                        <input type="text" id="lastName" onfocus="onFocusElement(this)">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" id="email" onfocus="onFocusElement(this)">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="text" id="phone" onfocus="onFocusElement(this)">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <input type="submit" value="Submit" id="submit" onclick="submitFunction()" onfocus="onFocusElement(this)">
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label id="message"></label>
+
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="rectangle" onclick="navigateFunction()" id="link_to_page_2">Go to Page 2</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script>
+            function submitFunction() {
+                var email = document.getElementById("email").value;
+                var message = document.getElementById("message");
+                if (email !== "") {
+                    if (email === "test@test.com") {
+                        message.innerText = 'Welcome back!';
+                        message.style.setProperty('color', 'cyan', '');
+                    } else {
+                        message.innerText = 'Welcome new user!'
+                        message.style.setProperty('color', 'red', '');
+                    }
+                }
+            }
+
+            function onFocusElement(x) {
+                console.log("Element " + x.id + " is focused!");
+            }
+
+            function navigateFunction() {
+                window.location.href = 'page2.html';
+            }
+        </script>
+
+    </body>
+</html>

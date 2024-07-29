@@ -1,0 +1,1 @@
+2023-01-23 16:31:40 INFO console-api https://newpage-solutions-inc.github.io/pytest-enhanced-reports/test-site/index.html 76:24 "Element submit is focused!"

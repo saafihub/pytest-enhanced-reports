@@ -1,0 +1,6 @@
+2023-01-23 16:31:52 WARNING security security - Error with Permissions-Policy header: Origin trial controlled feature not enabled: 'interest-cohort'.
+2023-01-23 16:31:52 INFO console-api https://newpage-solutions-inc.github.io/pytest-enhanced-reports/test-site/index.html 76:24 "Element firstName is focused!"
+2023-01-23 16:31:53 INFO console-api https://newpage-solutions-inc.github.io/pytest-enhanced-reports/test-site/index.html 76:24 "Element lastName is focused!"
+2023-01-23 16:31:53 INFO console-api https://newpage-solutions-inc.github.io/pytest-enhanced-reports/test-site/index.html 76:24 "Element email is focused!"
+2023-01-23 16:31:53 INFO console-api https://newpage-solutions-inc.github.io/pytest-enhanced-reports/test-site/index.html 76:24 "Element phone is focused!"
+2023-01-23 16:31:54 INFO console-api https://newpage-solutions-inc.github.io/pytest-enhanced-reports/test-site/index.html 76:24 "Element submit is focused!"

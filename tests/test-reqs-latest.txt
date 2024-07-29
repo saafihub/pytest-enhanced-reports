@@ -1,0 +1,9 @@
+selenium
+webdriver-manager
+pytest
+pytest-bdd
+allure-pytest-bdd
+pytest-order
+pre-commit
+opencv-python
+numpy
